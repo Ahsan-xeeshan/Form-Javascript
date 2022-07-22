@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(25 39 62);
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+fieldset {
+    background-color: rgb(17 62 16);
+    width: 400px;
+    height: 550px;
+    margin: 50px auto;
+    border: 1px solid black;
+    box-shadow: 0 0 5px rgb(94 228 60);
+}
+
+legend {
+    color: #fef8f8;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.form_input {
+    margin: 20px 0;
+}
+
+.label_text {
+    width: 40%;
+    text-align: right;
+}
+
+.input_content {
+    width: 60%;
+}
+
+.label_text label {
+    font-size: 20px;
+    font-style: oblique;
+    color: rgb(236 234 50);
+    padding-right: 5px;
+}
+
+label .name {
+    font-size: 18px;
+}
+
+.input_content input {
+    border: 0;
+    font-size: 18px;
+    border-bottom: 1px solid black;
+    text-indent: 20px;
+}
+
+.input_content input:focus {
+    box-shadow: 0 0 5px rgba(128, 189, 255, 0.8);
+    outline: 0;
+}
+
+.submit {
+    display: block;
+    text-align: center;
+}
+
+button {
+    background-color: #28c0a1;
+    color: #230909;
+    font-size: 18px;
+    height: 35px;
+    width: 100px;
+    border-radius: 6px;
+    border: 0;
+    outline: 0;
+    margin-top: 30px;
+}
+
+button:hover {
+    background-color: #e8dd0e;
+    color: darkblue;
+}
+
+h3,
+h4 {
+    margin-left: 30px;
+}
+
+h3 {
+    color: red;
+}
+
+h4 {
+    color: rgb(221, 238, 67)
+}
